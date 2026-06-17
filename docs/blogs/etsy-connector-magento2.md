@@ -10,7 +10,7 @@ Store owner can sync hundreds of products, categories, and orders from Etsy stor
 
 It also allows exporting of products from Magento 2 to Etsy store as well.
 
-### Features
+## Features
 
 - Connect multiple Etsy seller accounts.
 - The admin will decide whether to use Etsy credentials Globally or uniquely for each Etsy account created.
@@ -29,9 +29,9 @@ It also allows exporting of products from Magento 2 to Etsy store as well.
 - Set default shipping template for exporting products.
 - There is mapped order tracking information sync between Adobe Commerce and Etsy
 
-### Installation
+## Installation
 
-Please note that you need to install/enable the following libraries on your Adobe Commerce server[!\[webkul-magento2-oauth-support\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/Screenshot_1-5.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/Screenshot_1-5.png)
+Please note that you need to install/enable the following libraries on your Adobe Commerce server[![webkul-magento2-oauth-support](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/Screenshot_1-5.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/Screenshot_1-5.png)
 
 To install Magento 2 Etsy Connector extension, please follow each and every step carefully as follows:
 
@@ -71,21 +71,21 @@ Click **Flush Adobe Commerce Cache** button as shown below:
 
 ![Magento2 Cache Management](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/02/2017-02-28_12-09-25.png)
 
-### How to Get Etsy Credentials
+## How to Get Etsy Credentials
 
 Now follow the below steps to get the required credentials:
 
 ### Step 1:
 
 Moreover, navigate to [etsy.com/developers](https://www.etsy.com/developers/) and click on the **Register** link as shown in the snapshot below.  
-[!\[etsy developer account register\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/register1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/register1.png)
+[![etsy developer account register](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/register1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/register1.png)
 
 ### Step 2:
 
 Now on the pop-up, you can choose to **register** using your **social account** or enter your **first name**, **email address**, **password**, reenter the entered **password.**
 
 Lastly click the **register** button to register.  
-[!\[etsy developer account register\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/register2.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/register2.png)
+[![etsy developer account register](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/register2.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/register2.png)
 
 ### Step 3:
 
@@ -94,17 +94,17 @@ After registering in the previous step, click the **Register as a Developer **
 Here, you will have to verify the **email address** that you entered.
 
 While **registering** and **enable** the **Two-Factor authentication** before creating the **API key**.  
-[!\[etsy developer account register\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/create-app-1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/create-app-1.png)
+[![etsy developer account register](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/create-app-1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/create-app-1.png)
 
 **Enabling Two-factor Authentication**:
 
 **Step 1**: Click the **Two-Factor Authentication** link as shown below in the snapshot.
 
-[!\[Magento 2 Marketplace Etsy connector\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/enable-authentication-1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/enable-authentication-1.png)
+[![Magento 2 Marketplace Etsy connector](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/enable-authentication-1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/enable-authentication-1.png)
 
 **Step 2**: Then, this brings up the **Security Settings **section. Here, click the **Enable** button to enable two-factor authentication.
 
-[!\[Magento 2 Marketplace Etsy connector\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/enable-authentication.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/enable-authentication.png)
+[![Magento 2 Marketplace Etsy connector](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/enable-authentication.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/enable-authentication.png)
 
 **Step 3**:
 
@@ -114,36 +114,36 @@ Select your **Confirmation type** as **SMS/Text Message** or **Phone Call** base
 
 Then, click the **Confirm Phone Number** button.
 
-[!\[Magento 2 Marketplace Etsy connector\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/confirm-number-twofactor-authentication.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/confirm-number-twofactor-authentication.png)
+[![Magento 2 Marketplace Etsy connector](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/confirm-number-twofactor-authentication.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/confirm-number-twofactor-authentication.png)
 
 **Step 4**: This brings up a popup to enter the **two-factor code**, enter the code and click the **Confirm** button.
 
-[!\[Opencart etsy connector Two-Factor Authentication\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/Confirm-Number.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/Confirm-Number.png)
+[![Opencart etsy connector Two-Factor Authentication](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/Confirm-Number.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/Confirm-Number.png)
 
 You will also be able to **backup** codes(to sign in) that can be used to login **in case** you don’t have the **mobile phone along**.  
 ![
 backup codes](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/backup-codes.webp)
 
 You can see the **Two-Factor Authentication** is now enabled.  
-[!\[Magento 2 Marketplace Etsy connector\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/twofactor-enable.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/twofactor-enable.png)
+[![Magento 2 Marketplace Etsy connector](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/twofactor-enable.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/twofactor-enable.png)
 
 Afterward **verifying** the **email address** and setting up the **Two-Factor Authentication** now you can go back to the **Register as Developer** section.
 
 Here, enter all the related information on the page to **create the app**. Now, click the **Read Terms and Create App**button.  
-[!\[Magento 2 Marketplace Etsy connector\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/Register3.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/Register3.png)
+[![Magento 2 Marketplace Etsy connector](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/Register3.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/Register3.png)
 
 Therefore, this brings a popup to accept the API agreement. Here check the **agree to the terms and conditions** checkbox and click the **Create App** button.
 
-[!\[Magento 2 Marketplace Etsy connector\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/create-app1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/create-app1.png)
+[![Magento 2 Marketplace Etsy connector](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/create-app1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/create-app1.png)
 
 thereafter,this creates the **app **and you get the **Consumer Key**(Key String) and the **Secret Key**(Shared secret).  
-[!\[Magento 2 Marketplace Etsy connector\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/keys.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/keys.png)
+[![Magento 2 Marketplace Etsy connector](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/keys.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/keys.png)
 
 lastly, you need to have a **Shop name**(required for module configuration). To create one go to the **Shop Settings** menu link and create one. Here, you can see the shop name as WebkulShop.
 
-[!\[Magento 2 Marketplace Etsy connector\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/etsyShop.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/etsyShop.png)
+[![Magento 2 Marketplace Etsy connector](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/etsyShop.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/04/etsyShop.png)
 
-### Module Configuration
+## Module Configuration
 
 Afterward the installation of the Adobe Commerce 2 Etsy Connector module.
 
@@ -172,7 +172,7 @@ Admin needs to manage configuration for the Etsy Connector by navigating **Store
 - Default Source: The admin will select the default source for importing the products and orders.
 - Magento Product Delete On Etsy Map Record Delete: If set ‘Yes’, the product will get removed from Magento whenever you delete mapped products record with Etsy on Magento.
 
-### Manage Etsy Accounts
+## Manage Etsy Accounts
 
 #### **Etsy Account List**
 
@@ -249,7 +249,7 @@ Afterward, the authentication, the account edit page will be visible as shown in
 
 ![webkul-magento2-etsy-connector-admin-edit-etsy-account-authentiocated](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/webkul-magento2-etsy-connector-admin-edit-etsy-account-authentiocated.png)
 
-### Map Categories
+## Map Categories
 
 Thereafter entering the Etsy seller account details, the admin needs to map the correct Etsy category with the Adobe Commerce category.
 
@@ -263,7 +263,7 @@ The following page will appear showing all the mapped category records.
 
 **Map New Category** – Now, click this button to do mapping of the new Etsy category with Adobe Commerce.
 
-[!\[webkul-magento2-etsy-category -map\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/category-map-list.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/category-map-list.png)
+[![webkul-magento2-etsy-category -map](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/category-map-list.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/category-map-list.png)
 
 #### **New Category Map Record**
 
@@ -271,18 +271,18 @@ First, select the **Adobe Commerce Category** and then select the **Etsy Catego
 
 Now, click ** Save Map Record** to save your changes.
 
-[!\[etsy category mapping with magento 2\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-category-mapping-with-magento.jpg)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-category-mapping-with-magento.jpg)
+[![etsy category mapping with magento 2](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-category-mapping-with-magento.jpg)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-category-mapping-with-magento.jpg)
 
 Therefore, here is an example where we have mapped the following categories:  
 **Magento Category** – Women>Tops>**Jackets**  
-**Etsy Category** – Clothing>Women>**Jacket**[!\[category mapped\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/category-mapped.jpg)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/category-mapped.jpg)
+**Etsy Category** – Clothing>Women>**Jacket**[![category mapped](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/category-mapped.jpg)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/category-mapped.jpg)
 
-### Inventory Synchronization Between Etsy and Adobe Commerce
+## Inventory Synchronization Between Etsy and Adobe Commerce
 
 - When the order is placed on Magento at the same time stock quantity will get updated on Etsy.
 - Also, when any order is placed on Etsy and the order is imported to the Adobe Commerce store through cron. At the same time stock quantity will get updated on the Adobe Commerce end.
 
-### Product Sync
+## Product Sync
 
 **Import Products from Etsy**
 
@@ -308,13 +308,13 @@ It will show both imported as well as exported products.
 
 Then, run profiler for adding Etsy imported products to Adobe Commerce catalog.
 
-[!\[Etsy Connector For Magento 2\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/import-products-attention.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/import-products-attention.png)
+[![Etsy Connector For Magento 2](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/import-products-attention.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/import-products-attention.png)
 
 **Step 3 – Create Imported Products in Store** – Click this button to run profiler and create imported product entries to the catalog.
 
 The execution process will show the progress of product creation.
 
-[!\[Etsy Connector For Magento 2\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/import-run-profile.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/import-run-profile.png)
+[![Etsy Connector For Magento 2](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/import-run-profile.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/import-run-profile.png)
 
 **Actions** – Use this option to Assign imported products to the category. Use the **Delete** option to remove the mapped record entries from the list.
 
@@ -322,7 +322,7 @@ The execution process will show the progress of product creation.
 
 First, select the products from the list and then go to **Actions** drop-down menu and select the **Delete** option. Click **Submit** to delete the selected products from the list.
 
-[!\[Etsy Connector For Magento 2\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/delete.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/delete.png)
+[![Etsy Connector For Magento 2](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/delete.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/delete.png)
 
 #### **Assign Category**
 
@@ -332,9 +332,9 @@ First, select the products from the list and then go to **Actions >Assign to Cat
 
 Then, select the correct Magento 2 category from **Assign to category** option and click **Submit** button.
 
-[!\[Etsy Connector For Magento 2\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/assign-category.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/assign-category.png)
+[![Etsy Connector For Magento 2](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/assign-category.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/assign-category.png)
 
-### Order Sync
+## Order Sync
 
 #### **Import Orders from Etsy**
 
@@ -353,21 +353,21 @@ Otherwise, tick the option **Import Store All Orders** for gettings all Etsy or
 
 After that click **Import **button and go to Step 2.
 
-[!\[etsy order import\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-order-import.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-order-import.png)
+[![etsy order import](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-order-import.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-order-import.png)
 
 **Step 2 –** Click **Create Imported Order** button, the order profiler process will run showing the importing process result. All the order information will be imported to [Adobe Commerce](https://webkul.com/adobe-commerce-cloud/) store.
 
-[!\[Etsy Connector for Magento2\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/2017-06-21_15-45-08.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/2017-06-21_15-45-08.png)
+[![Etsy Connector for Magento2](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/2017-06-21_15-45-08.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/2017-06-21_15-45-08.png)
 
 After importing the orders from Etsy, they’ll be added to Adobe Commerce orders. To view Etsy orders please go to **Sales>Orders**. Please view the below sample order imported from Etsy store.
 
-[!\[Etsy Connector for Magento2\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-order-sample.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-order-sample.png)
+[![Etsy Connector for Magento2](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-order-sample.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/etsy-order-sample.png)
 
 **Delete** – To remove the imported order entries from the list, first select the orders, then go to **Actions>Delete** and click **Submit** button.
 
 ![webkul-magento2-edit-etsy-account-delete](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/import-orders.png)
 
-### Export to Etsy
+## Export to Etsy
 
 #### **Export Products to Etsy**
 
@@ -377,13 +377,13 @@ Please go to **Etsy Magento Connect>Etsy Account Manager>Edit>Export to Etsy.**
 
 Here all the Adobe Commerce store products will appear on the list.
 
-[!\[webkul-magento2-export-etsy-action\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/export-to-etsy.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/export-to-etsy.png)
+[![webkul-magento2-export-etsy-action](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/export-to-etsy.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/export-to-etsy.png)
 
 **Step 1 –** First, select the products to export using the check box option.
 
 **Step 2 –** go to **Actions**>**Export to Etsy** and click **Submit**.
 
-[!\[Etsy Connector for Magento2\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/export-and-select-products.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/export-and-select-products.png)
+[![Etsy Connector for Magento2](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/export-and-select-products.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/export-and-select-products.png)
 
 The profiler will run showing the product export execution progress. After exporting the products, they will appear in the Product Sync list.
 

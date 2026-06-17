@@ -20,7 +20,7 @@ Check a brief overview of the plugin configuration setting options –
 
 -6vVHN0qeJs
 
-### **Features**
+## **Features**
 
 - The admin can map Shopify categories with Magento 2 categories.
 - Admin can import Shopify products to Magento 2 store.
@@ -46,7 +46,7 @@ Check a brief overview of the plugin configuration setting options –
 - Works with simple, configurable, and virtual products.
 - Support multi-language translations.
 
-### **Installation**
+## **Installation**
 
 In the mean time, check other quality [Magento 2 extension ](https://store.webkul.com/Magento-2.html)that are easy to install.
 
@@ -56,7 +56,7 @@ Extracted folder has an **src** folder, inside the src folder you have the **a
 
 You need to transfer this **app** folder into the Magento2 root directory on the server as shown below.
 
-[!\[INSTALLATION\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/1-9-e1634634198330.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/1-9-e1634634198330.png)
+[![INSTALLATION](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/1-9-e1634634198330.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/1-9-e1634634198330.png)
 
 After the successful installation, you have to run these commands in the Magento2 root directory.
 
@@ -84,13 +84,13 @@ For Multilingual support, please navigate to **Store>Configuration>General >Loc
 
 ![locale](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/webkul-magento2-shopify-connector-locale.webp)
 
-### **Language Translation**
+## **Language Translation**
 
 For module translation, navigate to the following path in your system **app/code/Webkul/MultiShopifyStoreMageConnect/i18n/en_US.csv.**
 
 Open the file named **en_US.CSV **for editing as shown in the below screenshot.
 
-[!\[LANGUAGE TRANSLATION\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/22-3.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/22-3.png)
+[![LANGUAGE TRANSLATION](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/22-3.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/22-3.png)
 
 Then replace the words after the **comma(,) **on the right in the file with your translated words.
 
@@ -100,7 +100,7 @@ After editing and translating the CSV file, you need to save the translated file
 
 Follows by uploading the translated file to the same folder from where you have obtained it. Now your module translation is complete.
 
-[!\[Shopify Magento 2 Language translation\](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/2016-05-02_16-25-34-3.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/2016-05-02_16-25-34-3.png)
+[![Shopify Magento 2 Language translation](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/2016-05-02_16-25-34-3.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/07/2016-05-02_16-25-34-3.png)
 
 ## How to Get API Credential From Your Shopify Account
 
@@ -275,7 +275,7 @@ After filling in the details, click “Save webhook”.
 
 ![webhook verification key ](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/webhook-key.webp)
 
-### **Module Configuration**
+## **Module Configuration**
 
 After the module installation, the admin will configure the module settings by navigating to the given path.
 
@@ -321,7 +321,7 @@ Here, the admin will have several sub-menu options to manage the **Magento 2 Sho
 - Price Rule
 - Configuration
 
-### **Shopify Accounts**
+## **Shopify Accounts**
 
 Now, the admin can add Shopify account credentials. The admin can navigate to **Webkul Shopify Connector > Shopify Accounts **for managing and adding Shopify Accounts.
 
@@ -351,7 +351,7 @@ Here, the admin will enter :
 Check how to get the [Webhook verification key](https://webkul.com/blog/shopify-magento2-integration/#how-to-get-webhook-verification-key-in-add-shopify-account-option).
 - Domain Name: Enter the base URL of your Shopify store like – your store name.myshopify.comFor example – webkul.myshopify.com
 
-[!\[domain name\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/store-name.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/store-name.png)
+[![domain name](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/store-name.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/store-name.png)
 
 When the admin clicks on the **“****Save Shopify Account” **button, the following options become visible as per the below image.
 
@@ -423,7 +423,7 @@ And after mapping the categories, the admin can view them in the list.
 
 Only the manual collection of the Shopify store will be visible at the Magento end for mapping.
 
-[!\[collection\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/collection.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/collection.png)
+[![collection](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/collection.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/collection.png)
 
 ## **Export Customers**
 
@@ -482,7 +482,7 @@ After the system completes the action successfully, it displays a confirmation m
 
 The admin can import the desired products from the Shopify store to their Magento store.
 
-[!\[product page\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/product-page-2.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/product-page-2.png)
+[![product page](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/product-page-2.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/product-page-2.png)
 
 To import products from the Shopify store, the admin will click on the **Map Product **tab as per the image.
 
@@ -498,7 +498,7 @@ Here, the admin will:
 
 Clicking the **Run Profile** tab will initiate the product creation **.**
 
-[!\[profile\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/profile.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/profile.png)
+[![profile](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/profile.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/profile.png)
 
 - Import Product Image: It is used to import the product images from Shopify. Clicking on Import Product Image will initiate the image import.
 
@@ -508,7 +508,7 @@ After successful execution, the admin can check the imported products in the imp
 
 Also, by navigating to the Magento store category as per the category mapping is done for the imported product.
 
-[!\[front-end\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/front-end.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/front-end.png)
+[![front-end](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/front-end.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/front-end.png)
 
 **Note: **
 
@@ -520,7 +520,7 @@ Also, by navigating to the Magento store category as per the category mapping is
 
 Along with the simple product, the admin can even import the configurable product from the Shopify store.
 
-[!\[configurable product\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/configurable-product.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/configurable-product.png)
+[![configurable product](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/configurable-product.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/configurable-product.png)
 
 To import the configurable product successfully, simply follow the import process defined above for simple product import.
 
@@ -530,7 +530,7 @@ After the import, the configurable product will be created in the Magento 2 stor
 
 The admin can even check the imported configurable product at the front-end also.
 
-[!\[import\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/import-2.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/import-2.png)
+[![import](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/import-2.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/import-2.png)
 
 ### HOW TO CHANGE THE CATEGORY OF THE IMPORTED PRODUCTS?:
 
@@ -555,7 +555,7 @@ Also, the admin can check the newly assigned category of the product by navigati
 - The module import simple and configurable product (product with variants) types.
 - If importing a product that has no weight then, at Magento end that product will have the default weight 1 after the import.
 
-### **Import Order**
+## **Import Order**
 
 To import the orders from the Shopify store, the admin will click on **Import Order From Shopify **tab as per the image.
 
@@ -565,13 +565,13 @@ Here the admin will:
 
 - Import Order From Shopify: when clicking on the “Import Order From Shopify” button, the temporary order data is created and stored in Magento 2 database.
 
-[!\[pop-up\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/pop-up-4.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/pop-up-4.png)
+[![pop-up](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/pop-up-4.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/pop-up-4.png)
 
 - Run Profiler: It is used to create/add the imported orders to Magento 2 store.
 
 Clicking the “Create Imported Order” tab will initiate the **Run Profile.**
 
-[!\[profile\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/run-profile-1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/run-profile-1.png)
+[![profile](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/run-profile-1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/run-profile-1.png)
 
 After successful execution, the admin can check the imported orders in the imported order list.
 
@@ -590,7 +590,7 @@ The admin can check the details of imported orders by navigating to the **Sales
 - However, the admin needs to check those orders normally by navigating to Sales > Orders after importing them.
 - If you are importing the Shopify order and that customer doesn’t exist in Magento 2. Then, while order import that Shopify customer gets created in  Magento 2 automatically.
 
-### **Export Product**
+## **Export Product**
 
 The admin can export the desired products from the Magento store to their Shopify store.
 
@@ -607,7 +607,7 @@ To Export the products to the Shopify store, the admin will:
 - Proceed further by clicking on the “Submit” button which gets visible when selects the “Export to Shopify” option from the “Action” drop-down list.
 - This will navigate the admin to the “Run Profile” page as per the image.
 
-[!\[profile\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/profile-1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/profile-1.png)
+[![profile](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/profile-1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/profile-1.png)
 
 Once the execution is completed, the admin can click the **“Back” **button to navigate back. Then, the admin will go to the Shopify account and navigates to the **Selling** page.
 
@@ -619,11 +619,11 @@ Once the execution is completed, the admin can click the **“Back” **button
 
 Along with the simple product, the admin can even export the configurable product from the Magento store.
 
-[!\[configurable\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/configurable-1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/configurable-1.png)
+[![configurable](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/configurable-1.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/configurable-1.png)
 
 To export the configurable product successfully, simply follow the export process defined above for simple product export.
 
-[!\[shopify\](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/shopify.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/shopify.png)
+[![shopify](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/shopify.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/10/shopify.png)
 
 **NOTE:**
 
@@ -631,7 +631,7 @@ To export the configurable product successfully, simply follow the export proces
 - The admin can export the simple and configurable products from Magento store to the Shopify Store.
 - If exporting a product with no description then, at Shopify end that product will have its name as it’s description. Because at Shopify store, one cannot create the product without description.
 
-### Export Orders To Shopify
+## Export Orders To Shopify
 
 The Webkul Shopify Connector allows the admin to export Magento 2 orders directly to Shopify in a few simple steps.
 
@@ -662,7 +662,7 @@ After the export process is completed, the orders become visible in the Shopify 
 
 The orders are successfully synchronized from Magento 2 to Shopify and are ready for further processing in Shopify.
 
-### **Templates**
+## **Templates**
 
 This module allows the admin to export the product’s additional information along with the product as per the choice.
 
@@ -701,7 +701,7 @@ When the product get export, the additional details will also get export to the 
 
 And on the **edit** product page at **Shopify**, you can edit the **Item Description** section.
 
-### **Price Rule: Update Price Of Synced Products **
+## **Price Rule: Update Price Of Synced Products **
 
 The admin can easily update the price of the synced products automatically.
 
@@ -756,7 +756,7 @@ Then the system decreases **10** from the original product price, resulting in *
 
 That’s all for the Shopify Connector for Magento 2 (Adobe Commerce) Module.
 
-If you are having any queries or suggestions, feel free to mail us at [\[email protected\]](/cdn-cgi/l/email-protection)
+If you are having any queries or suggestions, feel free to mail us at [[email protected]](/cdn-cgi/l/email-protection)
 
 Explore the [Adobe Commerce Cloud](https://webkul.com/adobe-commerce-cloud/) development services by Webkul.
 

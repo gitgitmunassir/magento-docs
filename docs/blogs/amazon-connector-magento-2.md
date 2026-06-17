@@ -27,7 +27,7 @@ Check a brief overview of the Amazon connector plugin configuration –
 
 K5y-yawVTDI
 
-### **Features-Amazon Connector for Magento 2 **
+## **Features-Amazon Connector for Magento 2 **
 
 - Synchronize the Magento 2 products to Amazon and vice versa using Amazon connector.
 - The admin can create multiple price rules to update the price of the synchronized products automatically.
@@ -54,7 +54,7 @@ K5y-yawVTDI
 - Admin can update Magento product as FBA product at Magento.
 - The attribute mapping will work only in the case of exporting products from Magento to Amazon.
 
-### **Installation – Amazon Connector for Magento 2 **
+## **Installation – Amazon Connector for Magento 2 **
 
 Customers will get a **zip folder** then they have to extract the contents of this zip folder on their system.
 
@@ -106,13 +106,13 @@ After running the commands, you have to flush the cache from the Adobe Commerce 
 
 ![Cache-Management-Tools-System-Magento-Admin](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/Cache-Management-Tools-System-Magento-Admin.webp)
 
-### **Multi-Lingual Configuration**
+## **Multi-Lingual Configuration**
 
 For Multilingual support, please navigate to **Store>Configuration>General >Locale Options**. then select your desired language from the **Locale **option.
 
 ![Configuration-Settings-Stores-Magento-Admin](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/Configuration-Settings-Stores-Magento-Admin.webp)
 
-### **Language Translation**
+## **Language Translation**
 
 Similarly, if you need to do the module translation, please navigate to the following path:
 
@@ -286,7 +286,7 @@ If you do not update your LWA credentials before your target rotation date, your
 
 For details, please check the Amazon sp API docs:[ https://developer-docs.amazon.com/sp-api/docs/rotating-your-apps-lwa-credentials](https://developer-docs.amazon.com/sp-api/docs/rotating-your-apps-lwa-credentials)
 
-### Module Configuration-Amazon Connector for Magento 2
+## Module Configuration-Amazon Connector for Magento 2
 
 After the installation of the Amazon Connector, you can configure it by navigating through **->Store>Configuration>Amazon Connector.**
 
@@ -308,7 +308,7 @@ The mapped account will be used as default while fetching some common data for t
 
 ![config](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/config.webp)
 
-### **Manage Amazon Accounts – Admin End**
+## **Manage Amazon Accounts – Admin End**
 
 After successful configuration, the admin can add Amazon account credentials. The admin can navigate to “**Amazon Magento Connect > Manage Amazon Accounts”** for managing and adding Amazon Accounts.
 
@@ -398,7 +398,7 @@ Admin can easily manage the configure notification functionality, it can be enab
 
 ![update inventory](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/update-inventory.webp)
 
-### **Import Product From Amazon | Amazon Connector for Magento 2**
+## **Import Product From Amazon | Amazon Connector for Magento 2**
 
 The admin can import the desired products from the Amazon store to their Magento store.
 
@@ -475,7 +475,7 @@ As per the above image, the product’s Fulfillment Channel will be updated.
 - A cron is set for this module. So, for the auto status update of exported products, the admin has to configure the cron on the Magento 2 server. This will automatically update the status of exported products whether the products are exported to the Amazon store successfully or not.
 - For exporting products, the unique identification code of products must pre-exist in Amazon’s seller central catalog, newly assigned unique identification codes to products may not be exported.
 
-### **Import Order From Amazon**
+## **Import Order From Amazon**
 
 In order to import the orders from the Amazon store, the admin will click on **Import Order From Amazon **tab as per the image.
 
@@ -516,7 +516,7 @@ The admin can manage the imported orders through Amazon seller central account 
 - A cron is set for this module. So, for auto-synchronization of orders, the admin has to configure the cron on Magento 2 server. This will automatically import the orders from Amazon store to Magento 2 store after every one hour.
 - The admin will not get any email notifications for any order placed on the Amazon store for the admin products. However, the admin needs to check those orders normally by navigating to Sales > Orders after importing them.
 
-### **Export Product To Amazon**
+## **Export Product To Amazon**
 
 The admin can export the Magento store products to Amazon shop. To do so, the admin will click on the **“Export Products To Amazon” **option under Amazon Account Information.
 
@@ -558,7 +558,7 @@ After completing the category attribute mapping, you will need to assign values 
 
 ![mapped](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/mapped.webp)
 
-### **Manage Product Price Rules-Amazon Connector for Magento 2**
+## **Manage Product Price Rules-Amazon Connector for Magento 2**
 
 The admin can easily update the price of the synced products automatically. For this, the admin needs to create the Price Rules by navigating to **Amazon Magento Connect > Amazon Product Price Rules**.
 
@@ -610,7 +610,7 @@ Else if the Admin has configured –
 
 Then 10 will be decreased from the original price of the product ie; (100-10) = 90.
 
-### Map Attribute with Amazon-Amazon Connector for Magento 2
+## Map Attribute with Amazon-Amazon Connector for Magento 2
 
 Under ** “Amazon Magento Connect > Attribute Map”** the admin can map the “Amazon Product Attribute” with the “Magento Product Attribute”.
 
@@ -624,7 +624,7 @@ The admin selects the “Amazon Product Attribute” from the dropdown, then sel
 
 ![Mapped Attribute](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/mappedattribute.webp)
 
-### Category Map-Amazon Connector for Magento 2
+## Category Map-Amazon Connector for Magento 2
 
 Under ** “Amazon Magento Connect > Category Map”** the admin can map the “Amazon Parent Category” with the “Magento Category”.
 
@@ -648,7 +648,7 @@ The admin can map the Magento Store Attribute Related To the Amazon Field for th
 
 ![Category-Attribute-Mapping-Amazon-Magento-Connect-Magento-Admin](https://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/Category-Attribute-Mapping-Amazon-Magento-Connect-Magento-Admin.webp)
 
-### **Add Products-Amazon Connector for Magento 2**
+## **Add Products-Amazon Connector for Magento 2**
 
 While adding a new product to the Magento store, the admin will see a new tab **“Amazon Product Identifier”.**
 
@@ -669,3 +669,16 @@ Admin can monitor both the feed status and the status of listed products on the 
 That’s all for the **Amazon Connector for Magento 2** If you have any queries regarding the plugin, please contact us at **[Webkul Support System](https://webkul.uvdesk.com/en/).**
 
 You can also check our complete [**Magento 2 extensions**](https://store.webkul.com/Magento-2.html).
+
+Current Product Version - 4.1.3
+
+Supported Framework Version - Magento 2.0.x, 2.1.x, 2.2.x,2.3.x, 2.4.x
+
+![author-thumb](https://secure.gravatar.com/avatar/6adfe341e84fe93411a7bb9b3857c64d8709455ce6c93811805bd5ed5cc18abe?s=96&d=https%3A%2F%2Fcdnblog.webkul.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F10%2Feva.png&r=g)
+
+[Preeti Sagar 6 Badges](https://webkul.com/blog/author/preeti-sagar613/)
+
+- 14 Nov, 2025 Updated by - Kush Mathur
+- 11 Nov, 2024 Updated by - Dharmesh Kanwaria
+
+View More

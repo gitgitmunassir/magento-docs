@@ -59,7 +59,7 @@ Video tutorial #8
 
 RtrlyPcm6cE
 
-### Features of Magento 2 Marketplace Extension
+## Features of Magento 2 Marketplace Extension
 
 - Magento 2 multi vendor module is compatible with the Hyva Theme.
 
@@ -179,7 +179,7 @@ RtrlyPcm6cE
 - Also, a customer can send a request to the admin to become a marketplace seller
 - Even, a customer can check out at once having multiple sellers’ products in the shopping cart.
 
-### **Installation of Magento 2 Marketplace Extension
+## **Installation of Magento 2 Marketplace Extension
 
 The installation is quite simple just like the standard [Magento 2 extensions](https://store.webkul.com/Magento-2.html).
 
@@ -227,7 +227,7 @@ Run below mentioned commands to start low stock seller’s products related mess
 php bin/magento queue:consumers:start seller.product.lowstock &
 ```
 
-### Configuration for Multi-lingual Support
+## Configuration for Multi-lingual Support
 
 In addition, for **multilingual** support, the admin will navigate through **Store > Configuration > General > Locale Options. **
 
@@ -236,7 +236,7 @@ Furthermore, select the **locale** as German (the language into which admin want
 ![Locale options
 ](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Locale-options.webp)
 
-### Magento 2 Multi Vendor Extension Translation
+## Magento 2 Multi Vendor Extension Translation
 
 For translating the module language, navigate through **src/app/code/Webkul/Marketplace/i18n** and edit the en_US.csv file.
 
@@ -256,7 +256,7 @@ The user can edit the CSV like the image below.
 
 Thus, the language translation completes.
 
-### Arabic Translation – Magento 2 Marketplace Extension 
+## Arabic Translation – Magento 2 Marketplace Extension 
 
 ### **Step 1:**
 
@@ -296,7 +296,7 @@ Then, the module gets ** translate into the Arabic Language**.
 
 ![language translation - 5](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/3-3-2-1200x538.webp)
 
-### How to get Google Analytics Tracking ID
+## How to get Google Analytics Tracking ID
 
 To get the google analytics ID, the user will need to get the [Google Analytics Account first](https://www.google.com/analytics/). Here, the user can click on the Sign in to Analytics or Start for free if don’t have an analytics account.
 
@@ -346,7 +346,7 @@ Thus, you can simply copy the Tracking ID from the screen and paste it into the
 
 ![multi vendor - enter analytics tracking ID](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/11-3.png)
 
-### Magento 2 Marketplace Extension Configuration 
+## Magento 2 Marketplace Extension Configuration 
 
 Afterward the successful installation of the Magento 2(Adobe Commerce) Marketplace Extension, the admin is able to view the marketplace configuration setting under **Store > Configuration > Marketplace**.
 
@@ -402,13 +402,13 @@ The Fulfillment option is also visible at frontend and specifies the fulfillment
 
 ![seller-fulfillment](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/seller-fulfillment.webp)
 
-### Manage Google Analytics – Magento 2 Marketplace Extension
+## Manage Google Analytics – Magento 2 Marketplace Extension
 
 The admin can navigate to the **Store>Configuration>Sale>Google API, **enable the module and enter the Analytics Tracking ID here in the Account Number.
 
 ![Google analytics configuration ](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/Google-analytics.webp)
 
-### Allow Seller Separate Dashboard: Marketplace Extension
+## Allow Seller Separate Dashboard: Marketplace Extension
 
 Also, the admin can allow the **vendors to have a separate dashboard** in the ** Magento 2 Multi Vendor Extension**.
 
@@ -725,7 +725,7 @@ Customers can get the seller’s profile link for each item on the order view pa
 ![Order information
 ](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/diff-store-order-information-edited.webp)
 
-### Report Flag – Marketplace Extension
+## Report Flag – Marketplace Extension
 
 In addition, with the Multi Vendor Marketplace Extension, the admin will allow the customer to report a flag against the seller and seller’s product too.
 
@@ -1353,7 +1353,7 @@ The customer can apply the filter here to sort out the products of desired selle
 
 ![filter-seller-apply](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/06/filetr-apply-1.webp)
 
-### Seller’s Sitemap settings
+## Seller’s Sitemap settings
 
 The admin can manage the seller’s sitemap setting from the admin dashboard. To manage the sitemap, the admin can navigate to **Store> configuration> marketplace> seller’s sitemap setting**.
 
@@ -1442,7 +1442,7 @@ There will be a “View All” button which will display all the products of the
 
 ![mp-webkul-store](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/mp-webkul-store-1200x986.webp)
 
-### New Vendor Sign-Up – Magento 2 Marketplace Extension
+## New Vendor Sign-Up – Magento 2 Marketplace Extension
 
 Seller signup is very easy, the user can signup for the seller using the marketplace landing page button.
 
@@ -1461,7 +1461,7 @@ As per the below screen, that URL does not exist.
 
 ![shop-name-unavailable](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/shop-name-unavailable-1.webp)
 
-### Marketplace Seller Panel Management
+## Marketplace Seller Panel Management
 
 After approval as a seller, the marketplace dashboard will be available to the seller. So, the seller can edit their profile, add new products, and delete their products.
 
@@ -1520,7 +1520,7 @@ The admin can set the seller profile view layout by navigating through **Marketp
 ![seller profile page
 ](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/seller-profile-page-setting-1-901x1024.webp)
 
-### Frontend View of Seller’s Profile – Layout 1
+## Frontend View of Seller’s Profile – Layout 1
 
 After entering all the information, sellers will get an amazing page for their shop as below.
 
@@ -1578,7 +1578,7 @@ From the seller’s location, page buyers can view the seller’s location on th
 
 ![seller settings](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/seller-profile-page-seeting-2.webp)
 
-### Frontend View of Seller’s Profile – Layout 2
+## Frontend View of Seller’s Profile – Layout 2
 
 If Layout 2 is selected in Seller profile page settings then the seller will get amazing page for their shop as given below.
 
@@ -1626,7 +1626,7 @@ From the seller’s location, page buyer can view the seller’s location on the
 
 ![m2mp44](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/m2mp44.png)
 
-### New Products
+## New Products
 
 Admin BackEnd Setting For Allowed Attribute Set & Product Type For The Seller.
 
@@ -1810,7 +1810,7 @@ Once the duplicate product is created all the product information will be copied
 - Stock – It will be zero.
 - Stock Availability – It will be out of stock.
 
-### My Product List
+## My Product List
 
 Using this menu sellers can manage their products like they can edit their products, track their product sales, and can check their ordered stock quantity as per the screenshot.
 
@@ -1824,7 +1824,7 @@ You can see this as below screenshot.
 
 ![filter](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/products-filter-edited-1.webp)
 
-### My Transaction List
+## My Transaction List
 
 The seller can see their Transaction in this field. They can see whole statements(Total seller earning, Total Sales, and Commission  ) and total Payout.
 
@@ -1836,7 +1836,7 @@ The seller can also filter the transaction using Transaction id, Date, and view 
 
 ![transaction-list-view](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/transaction-list-view.webp)
 
-### Earnings
+## Earnings
 
 The sellers can easily with accurate statistics able to see the store earning report. By navigating to the “Earnings” option on sidebar.
 
@@ -1876,7 +1876,7 @@ The seller can select the period as “Year”, will enter the specific starting
 
 In addition, the seller can view the grid view of the total earnings year-wise.
 
-### Multi-site, Multi-store, Multi-Currency – Magento 2 Marketplace Extension
+## Multi-site, Multi-store, Multi-Currency – Magento 2 Marketplace Extension
 
 ### Multi-Store
 
@@ -1918,7 +1918,7 @@ The customers can choose their preferred currency at the store front-end.
 
 ![multi vendor ](https://cdnblog.webkul.com/blog/wp-content/uploads/2019/11/multi-currency-selection-multi-vendor-marketplace-webkul.png)
 
-### My Order History
+## My Order History
 
 Using this field seller can see their products order history in one shop. Order histories can filter by Order Id, Date, and Status.
 
@@ -1948,7 +1948,7 @@ You can check the below image for a better understanding:
 
 ![credit-memo-slip](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/credit-memo-slip-1200x796.webp)
 
-### Customer
+## Customer
 
 Under this section,  the seller will be able to view all of his customers and can see the order placed by the customers as well.
 
@@ -1956,7 +1956,7 @@ The seller can also view his customer’s details like- Name, Email, Contact Nu
 
 ![my-customer](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/my-customer-edited.webp)
 
-### Customer Review
+## Customer Review
 
 The seller will be able to view all the review and ratings given by the customers.
 
@@ -1964,13 +1964,13 @@ The vendor can check the price, value, quality ratings along with the feed summa
 
 ![Multi Vendor Marketplace Review](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Marketplace-Review-1-1.png)
 
-### Manage Print PDF header Info
+## Manage Print PDF header Info
 
 Here seller will enter Invoice and Packing Slip Address/VAT/Tax Information which will appear in the header of PDF files.
 
 ![manage print pdf](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/manage-print-pdf-edited.webp)
 
-### Marketplace Dashboard
+## Marketplace Dashboard
 
 Using seller dashboard seller can track his income, 5 top selling products, total sales over time, total payout, and the remaining amount that is left to be paid out.
 
@@ -1998,7 +1998,7 @@ The seller can see the news listing published by admin in the “**Admin News**�
 
 ![admin-news](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/admin-news-1.webp)
 
-### Seller Order Notification Mail Template
+## Seller Order Notification Mail Template
 
 In the Magento 2 Marketplace Extension, if an order is placed and its invoice is created then the seller will receive product sold notification mail with their product details.
 
@@ -2008,7 +2008,7 @@ So when order invoice will be created then sellers (X, Y, Z) will receive an ema
 
 ![Multi Vendor Order](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/email-seller-template.png)
 
-### Marketplace Admin Management
+## Marketplace Admin Management
 
 After the successful setup of the Magento 2 Marketplace Extension, the admin will be able to see “Marketplace Management” as per the below screen.
 
@@ -2147,7 +2147,7 @@ Reviews will not appear in Seller’s account. Admin can also see the ratings fo
 
 ![manage-feedback](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/manage-feedback-edited.webp)
 
-### Manage News
+## Manage News
 
 This menu is responsible for all the news that are published by admin. These news will visible to all sellers.
 
@@ -2157,7 +2157,7 @@ Here, the admin can also add the news by clicking on **“New News”** and It w
 
 ![add-news](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/06/add-news-edited.webp)
 
-### When Admin set seller Profile to No
+## When Admin set seller Profile to No
 
 When the admin set the seller profile page setting for “**Show Seller Profile**” to “**No”** at the back end.
 
@@ -2219,7 +2219,7 @@ Additionally, the Buyer information is hidden from the downloaded **Credit Memo*
 
 ![credit-memo-packing-slip](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/06/credit-memo-shipment.webp)
 
-### How to Use Advanced Pricing in Multi-Vendor Marketplace?
+## How to Use Advanced Pricing in Multi-Vendor Marketplace?
 
 Advanced pricing can be said as the special price offered to a specific group of customers. Also, advanced pricing can be implemented on simple, virtual, downloadable, and bundle products.
 
@@ -2258,7 +2258,7 @@ Now, the attribute **Tier Price** could be seen on seller front when we open the
 
 **Note-** In order, to have the functionality of Tier Pricing in Seller end you must have the add-on, Custom Attribute Marketplace Add-on.
 
-### Support
+## Support
 
 Therefore, In conclusion, that’s all for the Magento 2 Marketplace Extension.
 

@@ -14,7 +14,7 @@ This Module is also available for **[Magento2](https://store.webkul.com/Marketpl
 
 **
 
-### Features Of Magento Marketplace Hyperlocal System
+## Features Of Magento Marketplace Hyperlocal System
 
 - The customer can enter their location and buy products from nearest seller’s store.
 - The customer can also change their location.
@@ -28,7 +28,7 @@ This Module is also available for **[Magento2](https://store.webkul.com/Marketpl
 - Admin can add radius unit and range which will be used to search the seller from customer’s location.
 - If the customer does not select his location then his location will be the location that is set by the admin.
 
-### Installation – Magento Marketplace Hyperlocal System
+## Installation – Magento Marketplace Hyperlocal System
 
 Magento Marketplace Hyperlocal System module installation is super easy, you need to move app folder into Magento root directory that’s it as per the screenshot.
 
@@ -38,7 +38,7 @@ After moving the folder flush the cache from Magento admin panel- under **System
 
 [!\[Magento Marketplace Hyperlocal System\](http://cdnblog.webkul.com/blog/wp-content/uploads/2015/02/2.png)](http://cdnblog.webkul.com/blog/wp-content/uploads/2015/02/2.png)
 
-### Admin Management – Magento Marketplace Hyperlocal System
+## Admin Management – Magento Marketplace Hyperlocal System
 
 After installation of the module, admin can configure the module by going to **System > Configuration > Webkul > Hyperlocal Marketplace**. Here admin has to enter the heading for location popup window. Admin can select the radius unit and enter the radius range which is used to search sellers from customers location. Admin has to provide the Google API Key so that Google search suggestion for location will work.
 
@@ -72,7 +72,7 @@ Admin can download the sample CSV file and can then upload the CSV file containi
 
 [!\[CSV File\](http://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/CSV-file.png)](http://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/CSV-file.png)
 
-### Seller Management – Magento Marketplace Hyperlocal System
+## Seller Management – Magento Marketplace Hyperlocal System
 
 After the module is installed, sellers can see the “**Hyper Local**” option in marketplace menu. After clicking on the ‘Hyper Local’ seller will find two options “**Add Shipping Area**” and “**Ship Rate**“.
 
@@ -84,7 +84,7 @@ Seller can add shipping rates by clicking on “**Ship Rate**” and from here 
 
 [!\[Add Ship Rate - Seller\](http://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/8-seller-ship-rate.png)](http://cdnblog.webkul.com/blog/wp-content/uploads/2017/01/8-seller-ship-rate.png)
 
-### Customer Management – Magento Marketplace Hyperlocal System
+## Customer Management – Magento Marketplace Hyperlocal System
 
 When a customer will visit the website then a pop-up will open asking to enter the location. The customers can enter their location in the pop-up and click on the “**Go To Shop**” button to save the location.
 

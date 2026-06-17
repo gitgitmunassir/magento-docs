@@ -181,16 +181,21 @@ function buildSidebarChildren(headings, file, pageTitle) {
   const h2Headings = headings.filter((heading) => heading.level === 2)
   const h3Headings = headings.filter((heading) => heading.level === 3)
 
-  const pageItems =
-    h2Headings.length >= 2
-      ? h2Headings
-      : h3Headings.length > 0
-        ? h3Headings
-        : h2Headings
+  const usingH2 = h2Headings.length >= 2
+  const pageItems = usingH2
+    ? h2Headings
+    : h3Headings.length > 0
+      ? h3Headings
+      : h2Headings
 
-  const visibleItems = pageItems
-    .filter((heading) => heading.text.toLowerCase() !== pageTitle.toLowerCase())
-    .slice(0, h2Headings.length >= 2 ? 24 : MAX_ORPHAN_ITEMS)
+  let visibleItems = pageItems.filter(
+    (heading) => heading.text.toLowerCase() !== pageTitle.toLowerCase(),
+  )
+
+  // Only cap long H3 fallback lists; include all major H2 sections.
+  if (!usingH2) {
+    visibleItems = visibleItems.slice(0, MAX_ORPHAN_ITEMS)
+  }
 
   if (visibleItems.length === 0) return children
 
