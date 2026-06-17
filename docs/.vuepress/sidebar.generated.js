@@ -242,6 +242,84 @@ export const generatedBlogSidebar = [
     ]
   },
   {
+    "text": "Guide for Magento 2 WhatsApp Login",
+    "collapsible": true,
+    "expanded": false,
+    "children": [
+      {
+        "text": "Overview",
+        "link": "/blogs/magento2-whatsapp-login-documentation.md"
+      },
+      {
+        "text": "Sections",
+        "collapsible": true,
+        "expanded": false,
+        "children": [
+          {
+            "text": "Features",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#features"
+          },
+          {
+            "text": "Installation",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#installation"
+          },
+          {
+            "text": "Download Module",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#_1-download-module"
+          },
+          {
+            "text": "Upload Folder",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#_2-upload-folder"
+          },
+          {
+            "text": "Run Commands",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#_3-run-commands"
+          },
+          {
+            "text": "Language Translation",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#language-translation"
+          },
+          {
+            "text": "How to Get API Credentials – Magento 2 WhatsApp Login",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#how-to-get-api-credentials-–-magento-2-whatsapp-login"
+          },
+          {
+            "text": "Admin Configuration",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#admin-configuration"
+          },
+          {
+            "text": "New Sign-Up – Using the WhatsApp Number",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#new-sign-up-–-using-the-whatsapp-number"
+          },
+          {
+            "text": "Sign In With WhatsApp",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#sign-in-with-whatsapp"
+          },
+          {
+            "text": "Using WhatsApp at Checkout – If not Logged In",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#using-whatsapp-at-checkout-–-if-not-logged-in"
+          },
+          {
+            "text": "WhatsApp OTP Validation on Order Place",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#whatsapp-otp-validation-on-order-place"
+          },
+          {
+            "text": "Admin – View Customer WhatsApp Number",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#admin-–-view-customer-whatsapp-number"
+          },
+          {
+            "text": "WhatsApp Notification to Customer On – WhatsApp Number Ch…",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#whatsapp-notification-to-customer-on-–-whatsapp-number-change-by-admin"
+          },
+          {
+            "text": "Support",
+            "link": "/blogs/magento2-whatsapp-login-documentation.md#support"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "text": "Guide for Adobe Commerce Shopify Connector",
     "collapsible": true,
     "expanded": false,
