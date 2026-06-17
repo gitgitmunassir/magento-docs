@@ -1,0 +1,74 @@
+---
+home: true
+title: Webkul Magento 2 Documentation
+heroImage: /images/webkul-logo.png
+heroAlt: Webkul
+heroText: Magento 2 Extension Documentation
+tagline: Official user guides for Webkul Magento 2 extensions — marketplaces, channel connectors, and enterprise commerce solutions. Step-by-step admin configuration, import/export workflows, and integration setup.
+actions:
+  - text: Browse Documentation
+    link: /blogs/
+    type: primary
+  - text: Visit Store
+    link: https://store.webkul.com/magento2-extensions.html
+    type: secondary
+  - text: Get Support
+    link: https://webkul.uvdesk.com/
+    type: secondary
+features:
+  - title: Marketplace Extensions
+    details: Multi-vendor marketplace, hyperlocal delivery, seller dashboards, and commission management for Adobe Commerce.
+  - title: Channel Connectors
+    details: eBay, Amazon, Etsy, and more — sync products, orders, inventory, and listings across sales channels.
+  - title: Enterprise Ready
+    details: Sandbox modes, encrypted credentials, cron automation, queue-based exports, and multi-store support.
+footer: © 2010-2026 Webkul. All Rights Reserved.
+---
+
+<div class="wk-badges-strip">
+  <div class="wk-badges-row">
+    <a href="https://codecanyon.net/user/webkul" class="wk-badge" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdnwebkul.webkul.com/wp-content/uploads/2024/09/author-level-10.webp" alt="Author Level 10" />
+      <p>CodeCanyon<br/><strong>Author Level 10</strong></p>
+    </a>
+    <div class="wk-badge">
+      <img src="https://cdnwebkul.webkul.com/wp-content/uploads/2024/09/github.webp" alt="Magento 2 Core Contributor" />
+      <p>Magento 2<br/><strong>Core Contributor</strong></p>
+    </div>
+    <a href="https://pars.cmmiinstitute.com/appraisals/74954" class="wk-badge" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdnwebkul.webkul.com/wp-content/uploads/2025/07/cmmi-appraised.webp" alt="CMMI Level 3" />
+      <p>Webkul Appraised at<br/><strong>CMMI Level 3</strong></p>
+    </a>
+    <a href="https://webkul.com/deloitte-award/" class="wk-badge">
+      <img src="https://cdnwebkul.webkul.com/wp-content/uploads/2024/08/deloitte.webp" alt="Deloitte Technology Fast 50" />
+      <p>Deloitte<br/><strong>Technology Fast 50 India</strong></p>
+    </a>
+    <a href="https://clutch.co/profile/webkul#highlights" class="wk-badge" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdnwebkul.webkul.com/wp-content/uploads/2024/08/globle-clutch-spring.webp" alt="Global Clutch Awards 2024" />
+      <p>Global Clutch<br/><strong>Awards 2024</strong></p>
+    </a>
+  </div>
+  <div class="wk-reviews-row">
+    <a href="https://clutch.co/profile/webkul#highlights" class="wk-review-badge clutch" target="_blank" rel="noopener noreferrer">
+      <span class="review-rating">4.9 <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span></span>
+      <span class="review-label">Clutch Review</span>
+    </a>
+    <a href="https://www.google.com/search?q=webkul" class="wk-review-badge google" target="_blank" rel="noopener noreferrer">
+      <span class="review-rating">4.5 <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span></span>
+      <span class="review-label">Google Review</span>
+    </a>
+  </div>
+</div>
+
+
+<div class="wk-cta-strip">
+  <div class="wk-cta-content">
+    <h3>Need help with a Webkul extension?</h3>
+    <p>Our support team is available to assist with installation, configuration, and custom development.</p>
+  </div>
+  <div class="wk-cta-actions">
+    <a href="https://webkul.uvdesk.com/" class="wk-cta-btn primary" target="_blank" rel="noopener noreferrer">Get Support</a>
+    <a href="https://webkul.com/contacts/" class="wk-cta-btn secondary" target="_blank" rel="noopener noreferrer">Talk to Sales</a>
+    <a href="https://store.webkul.com/magento2-extensions.html" class="wk-cta-btn secondary" target="_blank" rel="noopener noreferrer">Visit Store</a>
+  </div>
+</div>
