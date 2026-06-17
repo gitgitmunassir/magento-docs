@@ -240,5 +240,40 @@ export const generatedBlogSidebar = [
         "link": "/blogs/magento2-multi-vendor-marketplace.md#how-to-make-tier-price-visible-on-seller-end"
       }
     ]
+  },
+  {
+    "text": "Guide for Adobe Commerce Shopify Connector",
+    "collapsible": true,
+    "expanded": false,
+    "children": [
+      {
+        "text": "Overview",
+        "link": "/blogs/shopify-magento2-integration.md"
+      },
+      {
+        "text": "How to Get API Credential From Your Shopify Account",
+        "link": "/blogs/shopify-magento2-integration.md#how-to-get-api-credential-from-your-shopify-account"
+      },
+      {
+        "text": "How to Get Webhook Verification key in Add Shopify Accoun…",
+        "link": "/blogs/shopify-magento2-integration.md#how-to-get-webhook-verification-key-in-add-shopify-account-option"
+      },
+      {
+        "text": "General Settings:",
+        "link": "/blogs/shopify-magento2-integration.md#general-settings"
+      },
+      {
+        "text": "Export Customers",
+        "link": "/blogs/shopify-magento2-integration.md#export-customers"
+      },
+      {
+        "text": "Import Product",
+        "link": "/blogs/shopify-magento2-integration.md#import-product"
+      },
+      {
+        "text": "View Exported Orders in Shopify",
+        "link": "/blogs/shopify-magento2-integration.md#view-exported-orders-in-shopify"
+      }
+    ]
   }
 ]

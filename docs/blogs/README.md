@@ -9,3 +9,4 @@ All blog pages in this folder are automatically listed below.
 - [User Guide for Etsy Connector for Magento 2](/blogs/etsy-connector-magento2.html)
 - [Magento Marketplace Hyperlocal System](/blogs/magento-marketplace-hyperlocal-system.html)
 - [User Guide for Adobe Commerce Multi Vendor Extension](/blogs/magento2-multi-vendor-marketplace.html)
+- [Guide for Adobe Commerce Shopify Connector](/blogs/shopify-magento2-integration.html)
