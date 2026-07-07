@@ -183,6 +183,20 @@ Confirm **Marketplace → RMA System** appears in the admin menu.
 
 ![General settings](/images/mprmasystem/general_settings_configuration.png)
 
+**Configuration fields shown in the screenshot:**
+
+| Field | Description |
+| ----- | ----------- |
+| **Enable Module** | Master switch to enable or disable the Marketplace RMA System module. |
+| **Notify Admin on New RMA** | Sends an email notification to the admin when a customer submits a new RMA request. |
+| **Default Allowed Days** | Number of days after order placement during which customers can request a return. |
+| **Admin Email** | Email address used for admin RMA notifications and system alerts. |
+| **Allow Seller Workflow Configuration** | Lets sellers manage automated workflow and pending alert rules from their seller dashboard. |
+| **Allow Seller Fraud Configuration** | Lets sellers manage fraud mitigation and notification settings for their own RMAs. |
+| **New RMA Template** | Transactional email template sent when a new RMA is created. |
+| **RMA Status Update Template** | Email template sent when an RMA status is updated. |
+| **RMA Conversation Template** | Email template used for messages in the RMA conversation thread. |
+
 ### Step 3 — Configure Automated Workflow
 
 1. Open **Marketplace → RMA System → RMA Configuration**.
@@ -191,6 +205,26 @@ Confirm **Marketplace → RMA System** appears in the admin menu.
 4. Save.
 
 ![Workflow configuration](/images/mprmasystem/automated_workflow_configuration.png)
+
+**Configuration fields shown in the screenshot:**
+
+| Field | Description |
+| ----- | ----------- |
+| **Enable Automated Workflow Rules** | Master switch to activate or deactivate the entire automated rules engine. |
+| **Enable Auto-Approve Rule** | Automatically approve RMA requests that match all criteria configured below. |
+| **Max Order Age (Days)** | Only auto-approve when the order is no older than this many days. Leave empty to skip this check. |
+| **Allowed Return Reason(s)** | Restrict auto-approve to selected return reasons. Leave empty to allow any reason. |
+| **Allowed Resolution Type(s)** | Restrict auto-approve to selected resolution types (Refund, Replace, Cancel Items, Wallet). |
+| **Allowed Customer Group(s)** | Restrict auto-approve to selected customer groups. Leave empty for all groups. |
+| **Minimum Product Price ($)** | Only auto-approve when returned product price is at or above this value. |
+| **Maximum Product Price ($)** | Only auto-approve when returned product price is at or below this value. |
+| **Auto-Refund Shipping Costs to Wallet** | Include shipping in the wallet refund when auto-approve runs (visible when wallet module is installed). |
+| **Send Approval Email Notification** | Email the customer when their return is automatically approved. |
+| **Enable Pending RMA Alert** | Send alert emails when RMAs remain in pending status too long. |
+| **Hours Threshold** | Number of hours a pending RMA can wait before the alert email is sent (default: 48). |
+| **Manager Email(s)** | Comma-separated recipient list for pending alerts. Uses store contact email if empty. |
+| **Alert Email Template** | Email template used for pending RMA manager alerts. |
+| **Send Test Alert Email** | Sends a sample pending alert using the email and template configured above. |
 
 ### Step 4 — Enable Fraud Detection
 
@@ -201,6 +235,20 @@ Confirm **Marketplace → RMA System** appears in the admin menu.
 
 ![Fraud detection configuration](/images/mprmasystem/rma_fraud_detection_configuration.png)
 
+**Configuration fields shown in the screenshot:**
+
+| Field | Description |
+| ----- | ----------- |
+| **Enable Fraud & Risk Scoring** | Tracks customer return frequency and displays risk indicators on admin and seller RMA grids. |
+| **Risk Threshold (Number of Returns)** | Number of returns within the timeframe that flags a customer as High Risk (default: 3). |
+| **Risk Timeframe (Days)** | Rolling window in days used to count customer returns (default: 30). |
+| **Exclude RMA Status(es) from Calculation** | RMAs in selected statuses are ignored when counting returns (e.g. Declined, Canceled). |
+| **Require Manual Review for High-Risk Customers** | High-risk customers always bypass auto-approval and require manual agent review. |
+| **Send Email Alert on High-Risk RMA Request** | Instantly notify administrators when a high-risk customer submits an RMA. |
+| **Notification Email Address(es)** | Comma-separated admin or manager emails that receive fraud alerts. |
+| **Admin Notification Email Template** | Transactional template used for high-risk RMA alert emails. |
+| **Send Test Alert Email** | Sends a sample high-risk alert for testing the configured email and template. |
+
 ### Step 5 — Open Analytics & Manage RMAs
 
 1. Go to **Marketplace → RMA System → RMA Analytics**.
@@ -208,6 +256,29 @@ Confirm **Marketplace → RMA System** appears in the admin menu.
 3. Scroll down to the **Manage RMA** grid to view, filter, and edit RMA requests.
 
 ![Admin analytics and RMA grid](/images/mprmasystem/rma_analytics_adminend.png)
+
+**Dashboard and grid fields shown in the screenshot:**
+
+| Section / Field | Description |
+| --------------- | ----------- |
+| **Total Refund Given** | Sum of refunded amounts with total RMA count and returned product quantity. |
+| **Total Pending** | Combined value of open RMAs with pending RMA and product counts. |
+| **Declined / Canceled** | Combined value of declined or canceled RMAs with counts. |
+| **Return Rate Over Time** | Chart showing monthly return trends for the last six months. |
+| **Resolution Distribution** | Chart breakdown by resolution type (Refund, Replace, Cancel Items, Wallet). |
+| **RMA Status Distribution** | Chart showing how RMAs are distributed across workflow statuses. |
+| **Top Return Reasons** | Chart of the most frequently selected return reasons. |
+| **Top Returned Products** | Products with the highest return volume. |
+| **Top Return Categories** | Categories with the highest return volume. |
+| **Manage RMA — RMA Id** | Unique RMA record ID; click to open the detail view. |
+| **Manage RMA — Order Ref** | Order increment ID linked to the return request. |
+| **Manage RMA — Customer Name** | Customer who submitted the RMA (links to customer account in admin). |
+| **Manage RMA — Risk Level** | Color-coded fraud risk badge (low, medium, or high). |
+| **Manage RMA — Resolution Type** | Customer-selected resolution for the return. |
+| **Manage RMA — RMA Status** | Current workflow status of the RMA request. |
+| **Manage RMA — Order Status** | Order delivery status associated with the RMA. |
+| **Manage RMA — Seller** | Marketplace seller assigned to the RMA. |
+| **Manage RMA — Action** | Open the RMA detail page to update status, refund, or reply. |
 
 ### Optional — Wallet Refunds
 
@@ -218,6 +289,15 @@ If **Webkul MpWalletSystem** is installed:
 3. Customers can select **Refund to Wallet** when creating an RMA.
 
 ![Wallet configuration](/images/mprmasystem/rma_wallet_configuration.png)
+
+**Configuration fields shown in the screenshot:**
+
+| Field | Description |
+| ----- | ----------- |
+| **Enable Wallet for RMA** | Allows customers to choose **Refund to Wallet** as a resolution type when creating an RMA. |
+| **Allow Standard Refund Alongside Wallet** | Keeps traditional offline or payment refunds available in addition to wallet credit. |
+| **Auto-Credit Wallet on RMA Approval** | Automatically credits the customer wallet when a wallet RMA is approved or marked solved. |
+| **Allowed Customer Group(s)** | Restricts wallet refund to selected customer groups. Leave empty to allow all groups. |
 
 ### Validation Checklist
 
@@ -239,16 +319,19 @@ Or: **Stores → Configuration → Marketplace RMA System**
 
 ![General settings configuration](/images/mprmasystem/general_settings_configuration.png)
 
-### Key Settings
+**Configuration fields shown in the screenshot:**
 
-| Setting | Description |
-| ------- | ----------- |
-| **Enable RMA** | Master switch for the marketplace RMA module |
-| **Return Window (Days)** | Number of days after order delivery customers can request returns |
-| **Allowed Product Types** | Product types eligible for RMA (simple, configurable, etc.) |
-| **Email Templates** | Templates for new RMA, updates, messages, and alerts |
-| **Allow Seller Workflow Config** | Let sellers override global workflow rules |
-| **Allow Seller Fraud Config** | Let sellers override global fraud detection rules |
+| Field | Description |
+| ----- | ----------- |
+| **Enable Module** | Master switch to enable or disable the Marketplace RMA System module. |
+| **Notify Admin on New RMA** | Sends an email notification to the admin when a customer submits a new RMA request. |
+| **Default Allowed Days** | Number of days after order placement during which customers can request a return. |
+| **Admin Email** | Email address used for admin RMA notifications and system alerts. |
+| **Allow Seller Workflow Configuration** | Lets sellers manage automated workflow and pending alert rules from their seller dashboard. |
+| **Allow Seller Fraud Configuration** | Lets sellers manage fraud mitigation and notification settings for their own RMAs. |
+| **New RMA Template** | Transactional email template sent when a new RMA is created. |
+| **RMA Status Update Template** | Email template sent when an RMA status is updated. |
+| **RMA Conversation Template** | Email template used for messages in the RMA conversation thread. |
 
 ### Configuration Tabs
 
@@ -269,19 +352,25 @@ The workflow rules engine evaluates each new RMA against admin-defined criteria 
 
 ![Automated workflow configuration](/images/mprmasystem/automated_workflow_configuration.png)
 
-### Configuration Options
+**Configuration fields shown in the screenshot:**
 
-| Option | Description |
-| ------ | ----------- |
-| **Enable Workflow Engine** | Master switch for automated workflow processing |
-| **Auto Approve** | Automatically approve RMAs matching all configured rules |
-| **Order Age (Days)** | Maximum order age for auto-approval eligibility |
-| **Allowed Reasons** | RMA reasons that qualify for auto-approve |
-| **Allowed Resolution Types** | Refund, Replace, Cancel Items, or Wallet |
-| **Customer Groups** | Groups eligible for auto-approve |
-| **Price Range** | Min/max order value for auto-approve |
-| **Pending Alert Hours** | Hours before pending RMA triggers alert email |
-| **Enable Pending Alert** | Send alert emails to admin and seller |
+| Field | Description |
+| ----- | ----------- |
+| **Enable Automated Workflow Rules** | Master switch to activate or deactivate the entire automated rules engine. |
+| **Enable Auto-Approve Rule** | Automatically approve RMA requests that match all criteria configured below. |
+| **Max Order Age (Days)** | Only auto-approve when the order is no older than this many days. Leave empty to skip this check. |
+| **Allowed Return Reason(s)** | Restrict auto-approve to selected return reasons. Leave empty to allow any reason. |
+| **Allowed Resolution Type(s)** | Restrict auto-approve to selected resolution types (Refund, Replace, Cancel Items, Wallet). |
+| **Allowed Customer Group(s)** | Restrict auto-approve to selected customer groups. Leave empty for all groups. |
+| **Minimum Product Price ($)** | Only auto-approve when returned product price is at or above this value. |
+| **Maximum Product Price ($)** | Only auto-approve when returned product price is at or below this value. |
+| **Auto-Refund Shipping Costs to Wallet** | Include shipping in the wallet refund when auto-approve runs (visible when wallet module is installed). |
+| **Send Approval Email Notification** | Email the customer when their return is automatically approved. |
+| **Enable Pending RMA Alert** | Send alert emails when RMAs remain in pending status too long. |
+| **Hours Threshold** | Number of hours a pending RMA can wait before the alert email is sent (default: 48). |
+| **Manager Email(s)** | Comma-separated recipient list for pending alerts. Uses store contact email if empty. |
+| **Alert Email Template** | Email template used for pending RMA manager alerts. |
+| **Send Test Alert Email** | Sends a sample pending alert using the email and template configured above. |
 
 ### How It Works
 
@@ -310,16 +399,19 @@ Fraud detection scores customers by return frequency and flags high-risk RMAs fo
 
 ![Fraud detection configuration](/images/mprmasystem/rma_fraud_detection_configuration.png)
 
-### Configuration Options
+**Configuration fields shown in the screenshot:**
 
-| Option | Description |
-| ------ | ----------- |
-| **Enable Fraud Detection** | Master switch for risk scoring |
-| **Return Limit** | Number of returns in the period that triggers high risk |
-| **Period (Days)** | Rolling window for counting customer returns |
-| **Exclude Statuses** | RMA statuses excluded from the return count |
-| **Manual Review for High Risk** | Skip auto-approve when customer is high risk |
-| **Notify Admin** | Send email alert when high-risk RMA is submitted |
+| Field | Description |
+| ----- | ----------- |
+| **Enable Fraud & Risk Scoring** | Tracks customer return frequency and displays risk indicators on admin and seller RMA grids. |
+| **Risk Threshold (Number of Returns)** | Number of returns within the timeframe that flags a customer as High Risk (default: 3). |
+| **Risk Timeframe (Days)** | Rolling window in days used to count customer returns (default: 30). |
+| **Exclude RMA Status(es) from Calculation** | RMAs in selected statuses are ignored when counting returns (e.g. Declined, Canceled). |
+| **Require Manual Review for High-Risk Customers** | High-risk customers always bypass auto-approval and require manual agent review. |
+| **Send Email Alert on High-Risk RMA Request** | Instantly notify administrators when a high-risk customer submits an RMA. |
+| **Notification Email Address(es)** | Comma-separated admin or manager emails that receive fraud alerts. |
+| **Admin Notification Email Template** | Transactional template used for high-risk RMA alert emails. |
+| **Send Test Alert Email** | Sends a sample high-risk alert for testing the configured email and template. |
 
 ### Risk Scoring Behavior
 
@@ -328,6 +420,18 @@ Fraud detection scores customers by return frequency and flags high-risk RMAs fo
 - Risk badges appear on admin RMA grid (**RMA Analytics** page) and seller RMA list (read-only)
 
 ![Seller RMA list with risk score](/images/mprmasystem/seller/rma_list_with_score.png)
+
+**Grid columns shown in the screenshot:**
+
+| Column | Description |
+| ------ | ----------- |
+| **RMA Id** | Unique return request identifier for the seller's RMA. |
+| **Order Ref** | Order increment ID linked to the return request. |
+| **Customer Name** | Customer who submitted the RMA. |
+| **Risk Level** | Read-only fraud risk badge showing low, medium, or high risk. |
+| **RMA Status** | Current workflow status of the return for this seller. |
+| **Created At** | Date and time the customer submitted the RMA. |
+| **Action** | Open the RMA detail page to review items, update status, or process refund. |
 
 Fraud detection runs **before** auto-approve. When **Manual Review for High Risk** is enabled, high-risk customers never receive auto-approval even if other workflow rules match.
 
@@ -350,15 +454,14 @@ The Wallet tab appears when the wallet module is detected. If wallet is not inst
 
 ![Wallet configuration](/images/mprmasystem/rma_wallet_configuration.png)
 
-### Configuration Options
+**Configuration fields shown in the screenshot:**
 
-| Option | Description |
-| ------ | ----------- |
-| **Enable Wallet Refunds** | Allow Refund to Wallet resolution type |
-| **Customer Groups** | Groups that can select wallet refund |
-| **Auto Credit on Approve** | Automatically credit wallet when RMA is approved/solved |
-| **Allow Standard Refund** | Keep offline/payment refund available alongside wallet |
-| **Minimum/Maximum Amount** | Optional limits for wallet refund amounts |
+| Field | Description |
+| ----- | ----------- |
+| **Enable Wallet for RMA** | Allows customers to choose **Refund to Wallet** as a resolution type when creating an RMA. |
+| **Allow Standard Refund Alongside Wallet** | Keeps traditional offline or payment refunds available in addition to wallet credit. |
+| **Auto-Credit Wallet on RMA Approval** | Automatically credits the customer wallet when a wallet RMA is approved or marked solved. |
+| **Allowed Customer Group(s)** | Restricts wallet refund to selected customer groups. Leave empty to allow all groups. |
 
 ### Refund Flows
 
@@ -378,11 +481,28 @@ Legacy URL `mprmasystem/rma/index` redirects here automatically.
 
 ![Admin analytics dashboard with RMA grid](/images/mprmasystem/rma_analytics_adminend.png)
 
-### Dashboard Sections
+**Dashboard and grid fields shown in the screenshot:**
 
-**Stat cards:** Total Refund Given, Total Pending, Declined / Canceled — each with value and RMA count.
-
-**Charts:** Return rate trend (last 6 months), resolution type distribution, top return reasons, top returned products and categories.
+| Section / Field | Description |
+| --------------- | ----------- |
+| **Total Refund Given** | Sum of refunded amounts with total RMA count and returned product quantity. |
+| **Total Pending** | Combined value of open RMAs with pending RMA and product counts. |
+| **Declined / Canceled** | Combined value of declined or canceled RMAs with counts. |
+| **Return Rate Over Time** | Chart showing monthly return trends for the last six months. |
+| **Resolution Distribution** | Chart breakdown by resolution type (Refund, Replace, Cancel Items, Wallet). |
+| **RMA Status Distribution** | Chart showing how RMAs are distributed across workflow statuses. |
+| **Top Return Reasons** | Chart of the most frequently selected return reasons. |
+| **Top Returned Products** | Products with the highest return volume. |
+| **Top Return Categories** | Categories with the highest return volume. |
+| **Manage RMA — RMA Id** | Unique RMA record ID; click to open the detail view. |
+| **Manage RMA — Order Ref** | Order increment ID linked to the return request. |
+| **Manage RMA — Customer Name** | Customer who submitted the RMA (links to customer account in admin). |
+| **Manage RMA — Risk Level** | Color-coded fraud risk badge (low, medium, or high). |
+| **Manage RMA — Resolution Type** | Customer-selected resolution for the return. |
+| **Manage RMA — RMA Status** | Current workflow status of the RMA request. |
+| **Manage RMA — Order Status** | Order delivery status associated with the RMA. |
+| **Manage RMA — Seller** | Marketplace seller assigned to the RMA. |
+| **Manage RMA — Action** | Open the RMA detail page to update status, refund, or reply. |
 
 ### Manage RMA Grid
 
@@ -414,11 +534,23 @@ Navigation link appears in the seller account menu when RMA is enabled and selle
 
 ![Seller workflow configuration](/images/mprmasystem/seller/rma_automated_workflow_seller_end.png)
 
-| Setting | Description |
-| ------- | ----------- |
-| **Use Custom Config** | When off, global admin workflow rules apply |
-| **Auto Approve Rules** | Same criteria as admin: order age, reasons, resolution, groups, price |
-| **Pending Alert** | Seller-specific pending alert hours and enable toggle |
+**Configuration fields shown in the screenshot:**
+
+| Field | Description |
+| ----- | ----------- |
+| **Use Custom Workflow Rules** | When set to **No**, global admin workflow rules apply to this seller's RMAs. |
+| **Enable Automated Workflow Rules** | Seller-level master switch for the automated rules engine. |
+| **Enable Auto-Approve Rule** | Auto-approve matching RMAs assigned to this seller. |
+| **Max Order Age (Days)** | Maximum order age eligible for seller auto-approval. |
+| **Allowed Return Reason(s)** | Return reasons eligible for seller auto-approve. |
+| **Allowed Resolution Type(s)** | Resolution types eligible for seller auto-approve. |
+| **Allowed Customer Group(s)** | Customer groups eligible for seller auto-approve. |
+| **Minimum / Maximum Product Price ($)** | Price range filter for seller auto-approve rules. |
+| **Send Approval Email Notification** | Notify customer when seller RMA is auto-approved. |
+| **Enable Pending RMA Alert** | Alert seller or manager when RMAs stay pending too long. |
+| **Hours Threshold** | Hours before pending alert is triggered for this seller. |
+| **Manager Email(s)** | Email recipients for seller pending RMA alerts. |
+| **Alert Email Template** | Template used for seller pending alert notifications. |
 
 Settings persist in `marketplace_rma_seller_workflow_config`.
 
@@ -426,11 +558,19 @@ Settings persist in `marketplace_rma_seller_workflow_config`.
 
 ![Seller fraud configuration](/images/mprmasystem/seller/rma_fraud_configuration_seller_end.png)
 
-| Setting | Description |
-| ------- | ----------- |
-| **Use Custom Config** | When off, global admin fraud rules apply |
-| **Manual Review** | Block auto-approve for high-risk customers on this seller's RMAs |
-| **Notify Admin** | Alert admin on high-risk submissions for this seller |
+**Configuration fields shown in the screenshot:**
+
+| Field | Description |
+| ----- | ----------- |
+| **Use Custom Fraud Rules** | When set to **No**, global admin fraud rules apply to this seller's RMAs. |
+| **Enable Fraud & Risk Scoring** | Enable seller-scoped fraud mitigation settings (risk scoring itself remains customer-global). |
+| **Risk Threshold (Number of Returns)** | Return count that triggers high-risk handling for this seller's configuration. |
+| **Risk Timeframe (Days)** | Rolling days window for return frequency (inherited scoring logic). |
+| **Exclude RMA Status(es) from Calculation** | Statuses excluded when counting customer returns. |
+| **Require Manual Review for High-Risk Customers** | Block auto-approve for high-risk customers on this seller's RMAs. |
+| **Send Email Alert on High-Risk RMA Request** | Notify admin when a high-risk RMA is submitted to this seller. |
+| **Notification Email Address(es)** | Admin emails to receive high-risk alerts for this seller. |
+| **Admin Notification Email Template** | Email template for seller-scoped fraud alerts. |
 
 Return frequency scoring remains **customer-global** across all sellers. Seller fraud config controls how high-risk RMAs are handled for that seller's requests.
 
@@ -451,17 +591,19 @@ Sellers view RMA analytics scoped to their own marketplace account — the same 
 
 ![Seller analytics dashboard](/images/mprmasystem/seller/rma_analytics_seller_end.png)
 
-### Available Metrics
+**Dashboard fields shown in the screenshot:**
 
-| Metric | Description |
-| ------ | ----------- |
-| Total Refund Given | Sum and count of refunds for seller's RMAs |
-| Total Pending | Open/pending RMA value and count |
-| Declined / Canceled | Declined or canceled RMA totals |
-| Return Rate Trend | Monthly return rate over 6 months |
-| Resolution Distribution | Breakdown by refund, replace, cancel, wallet |
-| Top Reasons | Most common return reasons |
-| Top Products & Categories | Highest return volume items |
+| Section / Field | Description |
+| --------------- | ----------- |
+| **Total Refund Given** | Sum and count of refunds processed for this seller's RMAs only. |
+| **Total Pending** | Open RMA value and count scoped to the logged-in seller. |
+| **Declined / Canceled** | Declined or canceled RMA totals for this seller. |
+| **Return Rate Over Time** | Monthly return rate chart for the seller's last six months. |
+| **Resolution Distribution** | Breakdown of refund, replace, cancel, and wallet resolutions for this seller. |
+| **RMA Status Distribution** | How this seller's RMAs are distributed by status. |
+| **Top Return Reasons** | Most common return reasons on this seller's RMAs. |
+| **Top Returned Products** | Products returned most often from this seller's catalog. |
+| **Top Return Categories** | Categories with the highest return volume for this seller. |
 
 Seller sees **only** RMAs where `marketplace_rma_details.seller_id` matches their seller account.
 
@@ -475,26 +617,49 @@ Sellers manage return requests assigned to their marketplace account from the se
 
 ![Seller RMA list with risk score](/images/mprmasystem/seller/rma_list_with_score.png)
 
+**Grid columns shown in the screenshot:**
+
 | Column | Description |
 | ------ | ----------- |
-| RMA ID | Unique return request identifier |
-| Order Ref | Related order increment ID |
-| Customer | Customer name and email |
-| Status | Current RMA workflow status |
-| Risk Level | Fraud risk badge (read-only) |
-| Created Date | Submission timestamp |
+| **RMA Id** | Unique return request identifier for the seller's RMA. |
+| **Order Ref** | Order increment ID linked to the return request. |
+| **Customer Name** | Customer who submitted the RMA. |
+| **Risk Level** | Read-only fraud risk badge showing low, medium, or high risk. |
+| **RMA Status** | Current workflow status of the return for this seller. |
+| **Created At** | Date and time the customer submitted the RMA. |
+| **Action** | Open the RMA detail page to review items, update status, or process refund. |
 
 ### RMA Detail View
 
 ![Seller RMA detail view](/images/mprmasystem/seller/view_rma_seller_end.png)
 
-| Action | Description |
-| ------ | ----------- |
-| **Update Status** | Change seller status (pending, received, dispatched, solved, declined) |
-| **Send Message** | Reply in RMA conversation thread |
-| **Refund** | Process standard refund when applicable |
-| **Refund In Wallet** | Credit customer wallet (when wallet module enabled) |
-| **Print RMA** | Generate printable RMA PDF |
+**Page sections and fields shown in the screenshot:**
+
+| Section / Field | Description |
+| --------------- | ----------- |
+| **RMA # / Date** | RMA identifier and submission date shown in the page header. |
+| **RMA Status badge** | Current status (Pending, Processing, Solved, Declined, or Canceled). |
+| **Risk badge** | Customer fraud risk level and score when fraud detection flagged the request. |
+| **Print** | Download or print the RMA as a PDF document. |
+| **Order** | Linked marketplace order increment ID (opens order view). |
+| **Customer** | Customer name, or Guest for guest RMA requests. |
+| **Resolution** | Customer-selected resolution type (Refund, Replace, Cancel Items, Wallet). |
+| **Delivery Status** | Whether the original order was delivered or not applicable. |
+| **Consignment Number** | Tracking or consignment number provided by the customer after delivery. |
+| **Additional Information** | Free-text notes the customer submitted with the return request. |
+| **Refundable / Refunded Amount** | Amount eligible for refund and amount already refunded (refund/wallet resolutions). |
+| **Customer Images** | Photos uploaded by the customer to support the return. |
+| **Requested Items — Product** | Product name and selected options for each returned line item. |
+| **Requested Items — SKU** | Product SKU for the returned item. |
+| **Requested Items — Price** | Unit price of the returned item. |
+| **Requested Items — Qty** | Quantity the customer requested to return. |
+| **Requested Items — Reason** | Return reason selected for each line item. |
+| **Seller Status** | Dropdown to update seller-side workflow status (pending, received, dispatched, solved, declined). |
+| **Return to Stock** | Restore returned quantity to inventory when applicable (replace resolution). |
+| **Save Status** | Submit the selected seller status update. |
+| **Payment Type** | Choose full or partial refund amount when processing offline refund. |
+| **Refund / Refund In Wallet** | Process standard payment refund or credit customer marketplace wallet. |
+| **Send Message** | Post a reply in the RMA conversation thread with the customer. |
 
 The seller navigation shows a pending notification count from `rma_pending_notification = 1`, independent of RMA business status.
 
