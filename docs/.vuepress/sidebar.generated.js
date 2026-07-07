@@ -1,5 +1,154 @@
 export const generatedBlogSidebar = [
   {
+    "text": "User Guide of Magento 2 eBay Connector",
+    "collapsible": true,
+    "expanded": false,
+    "children": [
+      {
+        "text": "Overview",
+        "link": "/blogs/adobe-commerce-ebay-connector.md"
+      },
+      {
+        "text": "Sections",
+        "collapsible": true,
+        "expanded": false,
+        "children": [
+          {
+            "text": "Features of eBay Connector",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#features-of-ebay-connector"
+          },
+          {
+            "text": "Installation of eBay Connector",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#installation-of-ebay-connector"
+          },
+          {
+            "text": "Multilingual Support",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#multilingual-support"
+          },
+          {
+            "text": "Translation in eBay Connector",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#translation-in-ebay-connector"
+          },
+          {
+            "text": "Configuration of eBay Connector",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#configuration-of-ebay-connector"
+          },
+          {
+            "text": "Map Category",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#map-category"
+          },
+          {
+            "text": "Category Automation",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#category-automation"
+          },
+          {
+            "text": "Map Product",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#map-product"
+          },
+          {
+            "text": "Export Queue Log",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#export-queue-log"
+          },
+          {
+            "text": "Bulk Export Tasks",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#bulk-export-tasks"
+          },
+          {
+            "text": "Listing Templates",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#listing-templates"
+          },
+          {
+            "text": "Price Rules",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#price-rules"
+          },
+          {
+            "text": "eBay Specifications and Conditions",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#ebay-specifications-and-conditions"
+          },
+          {
+            "text": "Map eBay Order",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#map-ebay-order"
+          },
+          {
+            "text": "Real Time Missed Orders",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#real-time-missed-orders"
+          },
+          {
+            "text": "Manage Product and Order Synchronization",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#manage-product-and-order-synchronization"
+          },
+          {
+            "text": "eBay Product Shipping at Storefront",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#ebay-product-shipping-at-storefront"
+          },
+          {
+            "text": "Guest User Support",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#guest-user-support"
+          },
+          {
+            "text": "eBay Motors Integration",
+            "link": "/blogs/adobe-commerce-ebay-connector.md#ebay-motors-integration"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "User Guide of Magento 2 Product Return RMA",
+    "collapsible": true,
+    "expanded": false,
+    "children": [
+      {
+        "text": "Overview",
+        "link": "/blogs/adobe-commerce-product-return-rma.md"
+      },
+      {
+        "text": "Features of Product Return RMA",
+        "link": "/blogs/adobe-commerce-product-return-rma.md#features-of-product-return-rma"
+      },
+      {
+        "text": "Installation of Product Return RMA",
+        "link": "/blogs/adobe-commerce-product-return-rma.md#installation-of-product-return-rma"
+      },
+      {
+        "text": "Run Commands",
+        "link": "/blogs/adobe-commerce-product-return-rma.md#_3-run-commands"
+      },
+      {
+        "text": "Multilingual Support",
+        "link": "/blogs/adobe-commerce-product-return-rma.md#multilingual-support"
+      },
+      {
+        "text": "Translation in Product Return RMA",
+        "link": "/blogs/adobe-commerce-product-return-rma.md#translation-in-product-return-rma"
+      },
+      {
+        "text": "Configuration of Product Return RMA",
+        "link": "/blogs/adobe-commerce-product-return-rma.md#configuration-of-product-return-rma"
+      },
+      {
+        "text": "Category Restriction in Product Return RMA",
+        "link": "/blogs/adobe-commerce-product-return-rma.md#category-restriction-in-product-return-rma"
+      },
+      {
+        "text": "Product Return RMA System Management",
+        "link": "/blogs/adobe-commerce-product-return-rma.md#product-return-rma-system-management"
+      },
+      {
+        "text": "Create a New RMA Request",
+        "link": "/blogs/adobe-commerce-product-return-rma.md#create-a-new-rma-request"
+      },
+      {
+        "text": "Guest Login for RMA",
+        "link": "/blogs/adobe-commerce-product-return-rma.md#guest-login-for-rma"
+      },
+      {
+        "text": "Manage All RMA Requests",
+        "link": "/blogs/adobe-commerce-product-return-rma.md#manage-all-rma-requests"
+      }
+    ]
+  },
+  {
     "text": "Amazon Connector for Magento 2",
     "collapsible": true,
     "expanded": false,
@@ -420,6 +569,147 @@ export const generatedBlogSidebar = [
     ]
   },
   {
+    "text": "User Guide of Magento 2 Push Notification",
+    "collapsible": true,
+    "expanded": false,
+    "children": [
+      {
+        "text": "Overview",
+        "link": "/blogs/magento2-push-notification.md"
+      },
+      {
+        "text": "Sections",
+        "collapsible": true,
+        "expanded": false,
+        "children": [
+          {
+            "text": "Installation of Magento 2 Push Notification",
+            "link": "/blogs/magento2-push-notification.md#installation-of-magento-2-push-notification"
+          },
+          {
+            "text": "Run Commands",
+            "link": "/blogs/magento2-push-notification.md#_3-run-commands"
+          },
+          {
+            "text": "Multilingual Support",
+            "link": "/blogs/magento2-push-notification.md#multilingual-support"
+          },
+          {
+            "text": "Translation",
+            "link": "/blogs/magento2-push-notification.md#translation"
+          },
+          {
+            "text": "Configuration",
+            "link": "/blogs/magento2-push-notification.md#configuration"
+          },
+          {
+            "text": "Notification Templates",
+            "link": "/blogs/magento2-push-notification.md#notification-templates"
+          },
+          {
+            "text": "Registered Users",
+            "link": "/blogs/magento2-push-notification.md#registered-users"
+          },
+          {
+            "text": "Automatic Push Notification Rules (Cron)",
+            "link": "/blogs/magento2-push-notification.md#automatic-push-notification-rules-cron"
+          },
+          {
+            "text": "Configuration Setting (Admin Shortcut)",
+            "link": "/blogs/magento2-push-notification.md#configuration-setting-admin-shortcut"
+          },
+          {
+            "text": "Support Menu",
+            "link": "/blogs/magento2-push-notification.md#support-menu"
+          },
+          {
+            "text": "Subscribe to Push Notifications (Storefront)",
+            "link": "/blogs/magento2-push-notification.md#subscribe-to-push-notifications-storefront"
+          },
+          {
+            "text": "Guest User Support",
+            "link": "/blogs/magento2-push-notification.md#guest-user-support"
+          },
+          {
+            "text": "Mobile App and Headless Integration (GraphQL)",
+            "link": "/blogs/magento2-push-notification.md#mobile-app-and-headless-integration-graphql"
+          },
+          {
+            "text": "Admin Management of Subscribers and Campaigns",
+            "link": "/blogs/magento2-push-notification.md#admin-management-of-subscribers-and-campaigns"
+          },
+          {
+            "text": "Troubleshooting Tips",
+            "link": "/blogs/magento2-push-notification.md#troubleshooting-tips"
+          },
+          {
+            "text": "Support",
+            "link": "/blogs/magento2-push-notification.md#support"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Guide for Magento 2 Recurring Plans for Disco…",
+    "collapsible": true,
+    "expanded": false,
+    "children": [
+      {
+        "text": "Overview",
+        "link": "/blogs/magento2-recurring-payment-discount.md"
+      },
+      {
+        "text": "Features",
+        "link": "/blogs/magento2-recurring-payment-discount.md#features"
+      },
+      {
+        "text": "Installation",
+        "link": "/blogs/magento2-recurring-payment-discount.md#installation"
+      },
+      {
+        "text": "Download Module",
+        "link": "/blogs/magento2-recurring-payment-discount.md#_1-download-module"
+      },
+      {
+        "text": "Upload Folder",
+        "link": "/blogs/magento2-recurring-payment-discount.md#_2-upload-folder"
+      },
+      {
+        "text": "Run Commands",
+        "link": "/blogs/magento2-recurring-payment-discount.md#_3-run-commands"
+      },
+      {
+        "text": "Language Translation",
+        "link": "/blogs/magento2-recurring-payment-discount.md#language-translation"
+      },
+      {
+        "text": "Recurring Discount Settings Configuration",
+        "link": "/blogs/magento2-recurring-payment-discount.md#recurring-discount-settings-configuration"
+      },
+      {
+        "text": "Manage Recurring Discount Plans",
+        "link": "/blogs/magento2-recurring-payment-discount.md#manage-recurring-discount-plans"
+      },
+      {
+        "text": "Manage Recurring Discount Subscriptions",
+        "link": "/blogs/magento2-recurring-payment-discount.md#manage-recurring-discount-subscriptions"
+      },
+      {
+        "text": "Subscribe to Discount Plans – Magento 2 Recurring Plans f…",
+        "link": "/blogs/magento2-recurring-payment-discount.md#subscribe-to-discount-plans-–-magento-2-recurring-plans-for-discount"
+      },
+      {
+        "text": "Manage Subscriptions – Admin",
+        "link": "/blogs/magento2-recurring-payment-discount.md#manage-subscriptions-–-admin"
+      },
+      {
+        "text": "Support",
+        "link": "/blogs/magento2-recurring-payment-discount.md#support"
+      }
+    ]
+  },
+  {
     "text": "Guide for Magento 2 WhatsApp Login",
     "collapsible": true,
     "expanded": false,
@@ -494,6 +784,65 @@ export const generatedBlogSidebar = [
             "link": "/blogs/magento2-whatsapp-login-documentation.md#support"
           }
         ]
+      }
+    ]
+  },
+  {
+    "text": "User Guide of Marketplace RMA System for Mage…",
+    "collapsible": true,
+    "expanded": false,
+    "children": [
+      {
+        "text": "Overview",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md"
+      },
+      {
+        "text": "Introduction",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#introduction"
+      },
+      {
+        "text": "Features of Marketplace RMA System",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#features-of-marketplace-rma-system"
+      },
+      {
+        "text": "Installation of Marketplace RMA System",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#installation-of-marketplace-rma-system"
+      },
+      {
+        "text": "Quick Start — Marketplace RMA in 10 Minutes",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#quick-start-—-marketplace-rma-in-10-minutes"
+      },
+      {
+        "text": "General Settings Configuration",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#general-settings-configuration"
+      },
+      {
+        "text": "Automated Workflow Configuration",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#automated-workflow-configuration"
+      },
+      {
+        "text": "Fraud Detection Configuration",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#fraud-detection-configuration"
+      },
+      {
+        "text": "Wallet Configuration",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#wallet-configuration"
+      },
+      {
+        "text": "Analytics Dashboard & RMA Management",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#analytics-dashboard-rma-management"
+      },
+      {
+        "text": "Seller Configuration",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#seller-configuration"
+      },
+      {
+        "text": "Seller Analytics Dashboard",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#seller-analytics-dashboard"
+      },
+      {
+        "text": "Seller RMA Management",
+        "link": "/blogs/marketplace-rma-system-for-magento-2.md#seller-rma-management"
       }
     ]
   },
