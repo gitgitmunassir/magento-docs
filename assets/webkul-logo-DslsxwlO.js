@@ -1,0 +1,1 @@
+var e=`/magento-docs/assets/webkul-logo-C-eUeQas.png`;export{e as t};
